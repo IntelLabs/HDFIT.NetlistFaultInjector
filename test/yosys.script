@@ -1,0 +1,5 @@
+read -sv *.v
+hierarchy -top fma
+proc; opt
+techmap; opt
+write_verilog fma_netlist.v

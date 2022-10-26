@@ -1,0 +1,14 @@
+
+*.o
+
+*.a
+
+*.v
+
+test/obj_dir/
+
+.depend
+
+test/test
+
+test/fmaFiSignals.cpp
