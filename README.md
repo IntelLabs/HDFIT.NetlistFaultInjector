@@ -1,5 +1,16 @@
 # HDFIT.NetlistFaultInjector
 
+```console
+This project will no longer be maintained by Intel.  
+Intel has ceased development and contributions including, but not limited to,
+maintenance, bug fixes, new releases, or updates, to this project.  
+Intel no longer accepts patches to this project.  
+If you have an ongoing need to use this project, are interested in independently
+developing it, or would like to maintain patches for the open source software
+community, please create your own fork of this project.
+```
+
+
 The HDFIT.NetlistFaultInjector modifies Verilog netlists to include fault injection signals and is part of the [HDFIT toolkit](https://github.com/IntelLabs/HDFIT). It is tested with the toolchain described below ([Example Toolchain](#exampleToolchain)), but in principle should work with Verilog netlists produced by other tools. The returned netlist with fault injection signals contains no special macros requiring the use of Verilator, so may also be simulated / synthesized to other targets for fault injection experiments.
 
 ## <a id="exampleToolchain"></a> Example Toolchain
